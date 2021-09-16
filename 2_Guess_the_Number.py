@@ -24,7 +24,7 @@ def guess_number(high_num):
         elif my_guess>rand_num:
             print("Sorry , your guess is high..!! Try again.. :) ")
         # Since the above while condition handles the equal to, we don't need to explicity state the obvious.
-        # It will work outside the loop.
+        #Pawan Commented :-  It will work outside the loop.
     print(f"Yayyy..!! You guessed {rand_num} correctly...!!!")
 
 # high_val=int(input("Enter upper limit of number from 1 "))
@@ -55,6 +55,7 @@ def guess_by_computer(high_num):
             high_val=guess-1
         elif user_feedback=='l':
             low_val=guess+1
+        # You need to check if user enters invalid values and give proper message.
     print(f"Computer has guessed your number {guess} correctly...!!")
 
 high_val=int(input("Enter upper limit of number from 1 : - "))
