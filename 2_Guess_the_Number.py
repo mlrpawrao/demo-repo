@@ -45,10 +45,7 @@ def guess_by_computer(high_num):
     guess=0
     user_feedback=''
     while user_feedback !='c':
-        if low_val!=high_val:
-            guess=rand.randint(low_val,high_val)
-        else:
-            guess=low_val # or can be high if same number.
+        guess=rand.randint(low_val,high_val)
         user_feedback=input(f"Computer has guessed {guess}.. Type H for High,L for Low and C if correct..!! :-  ").lower()
         if user_feedback=='h':
             high_val=guess-1
