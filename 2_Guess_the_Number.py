@@ -1,4 +1,5 @@
 # lets import random module for generating random numbers.
+# Implemented the Git version controlling.
 import random as rand
 
 # Now , lets define a function that will allow users to guess a number between a range.
