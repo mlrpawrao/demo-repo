@@ -1,3 +1,4 @@
+import random as rand
 """
 Part 2:- Where we will have a number between range 1-x and computer needs to guess.
 It can be done by feedback from user to inform computer if guess is high/low.
